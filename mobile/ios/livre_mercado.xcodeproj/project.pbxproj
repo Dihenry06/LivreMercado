@@ -16,10 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* livre_mercadoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* livre_mercadoTests.m */; };
-		322605F7B87BF428F9B31426 /* libPods-livre_mercado-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91175A03BEB765A4062A0CA1 /* libPods-livre_mercado-tvOS.a */; };
-		4DA95ADB321F48D67020767F /* libPods-livre_mercado.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC697EA642238A85CC2D869B /* libPods-livre_mercado.a */; };
-		A744AB03F39AA24131606D39 /* libPods-livre_mercado-livre_mercadoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 403D49E0BD6179B8F919CCA3 /* libPods-livre_mercado-livre_mercadoTests.a */; };
-		DC0C4CB4B294B8E60F57B79D /* libPods-livre_mercado-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD63DE727BCEFE195902E7B /* libPods-livre_mercado-tvOSTests.a */; };
+		59B9903498285BA1D875A8A4 /* libPods-livre_mercado-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AD072AF5BCAF8D05D286A5 /* libPods-livre_mercado-tvOS.a */; };
+		92CB52BF9C8A45E1A1D71B8A /* libPods-livre_mercado.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43107B0DEDE0FD197ED04D7A /* libPods-livre_mercado.a */; };
+		E6DA14485832CE3FE286B18E /* libPods-livre_mercado-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAFF00223A9297B1F794DAF /* libPods-livre_mercado-tvOSTests.a */; };
+		FD937538278C27081F1758AE /* libPods-livre_mercado-livre_mercadoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FE8D08EC1FDF7638DE0F7F /* libPods-livre_mercado-livre_mercadoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		00E356EE1AD99517003FC87E /* livre_mercadoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = livre_mercadoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* livre_mercadoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = livre_mercadoTests.m; sourceTree = "<group>"; };
-		06FD24A5166AEE406B1E9ECF /* Pods-livre_mercado-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOS.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOS/Pods-livre_mercado-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* livre_mercado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = livre_mercado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = livre_mercado/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = livre_mercado/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,21 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = livre_mercado/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = livre_mercado/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = livre_mercado/main.m; sourceTree = "<group>"; };
+		16699381999C0420F0E6C96B /* Pods-livre_mercado-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOS/Pods-livre_mercado-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		25FE8D08EC1FDF7638DE0F7F /* libPods-livre_mercado-livre_mercadoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado-livre_mercadoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* livre_mercado-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "livre_mercado-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* livre_mercado-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "livre_mercado-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FBED28A6B9A9AC9AA4EF971 /* Pods-livre_mercado.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado/Pods-livre_mercado.debug.xcconfig"; sourceTree = "<group>"; };
-		403D49E0BD6179B8F919CCA3 /* libPods-livre_mercado-livre_mercadoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado-livre_mercadoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49EBF06E1BF412866ED2BE31 /* Pods-livre_mercado-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOSTests/Pods-livre_mercado-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		5F52C24A4F28EF5E5FB9D220 /* Pods-livre_mercado-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOSTests/Pods-livre_mercado-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		63197F4F74CBBACE536F2B42 /* Pods-livre_mercado.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado/Pods-livre_mercado.release.xcconfig"; sourceTree = "<group>"; };
-		76CDA45CBA2E29D2CA53DA37 /* Pods-livre_mercado-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOS/Pods-livre_mercado-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		91175A03BEB765A4062A0CA1 /* libPods-livre_mercado-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		99FFCDA60CABFFE9FB2BA9CF /* Pods-livre_mercado-livre_mercadoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-livre_mercadoTests.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado-livre_mercadoTests/Pods-livre_mercado-livre_mercadoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9AD63DE727BCEFE195902E7B /* libPods-livre_mercado-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5EADB5B8684683351B8FDB9 /* Pods-livre_mercado-livre_mercadoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-livre_mercadoTests.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado-livre_mercadoTests/Pods-livre_mercado-livre_mercadoTests.release.xcconfig"; sourceTree = "<group>"; };
+		38AD072AF5BCAF8D05D286A5 /* libPods-livre_mercado-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43107B0DEDE0FD197ED04D7A /* libPods-livre_mercado.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		470210849CE1FCBD70B6BF05 /* Pods-livre_mercado-livre_mercadoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-livre_mercadoTests.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado-livre_mercadoTests/Pods-livre_mercado-livre_mercadoTests.release.xcconfig"; sourceTree = "<group>"; };
+		553672BD6055FEEB31D4A22A /* Pods-livre_mercado-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOS.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOS/Pods-livre_mercado-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5CAFF00223A9297B1F794DAF /* libPods-livre_mercado-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A291CFEDB697700505AFCC88 /* Pods-livre_mercado.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado/Pods-livre_mercado.debug.xcconfig"; sourceTree = "<group>"; };
+		B124E5606B0EC0A3379241FC /* Pods-livre_mercado-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOSTests/Pods-livre_mercado-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C66E852432E353F5EEA4AFF0 /* Pods-livre_mercado-livre_mercadoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-livre_mercadoTests.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado-livre_mercadoTests/Pods-livre_mercado-livre_mercadoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3BB92BFF4785B56FA17E2D /* Pods-livre_mercado.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado/Pods-livre_mercado.release.xcconfig"; sourceTree = "<group>"; };
+		CBB5888C6DF791C4985CB874 /* Pods-livre_mercado-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOSTests/Pods-livre_mercado-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FC697EA642238A85CC2D869B /* libPods-livre_mercado.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A744AB03F39AA24131606D39 /* libPods-livre_mercado-livre_mercadoTests.a in Frameworks */,
+				FD937538278C27081F1758AE /* libPods-livre_mercado-livre_mercadoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA95ADB321F48D67020767F /* libPods-livre_mercado.a in Frameworks */,
+				92CB52BF9C8A45E1A1D71B8A /* libPods-livre_mercado.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				322605F7B87BF428F9B31426 /* libPods-livre_mercado-tvOS.a in Frameworks */,
+				59B9903498285BA1D875A8A4 /* libPods-livre_mercado-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC0C4CB4B294B8E60F57B79D /* libPods-livre_mercado-tvOSTests.a in Frameworks */,
+				E6DA14485832CE3FE286B18E /* libPods-livre_mercado-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,28 +141,12 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				FC697EA642238A85CC2D869B /* libPods-livre_mercado.a */,
-				403D49E0BD6179B8F919CCA3 /* libPods-livre_mercado-livre_mercadoTests.a */,
-				91175A03BEB765A4062A0CA1 /* libPods-livre_mercado-tvOS.a */,
-				9AD63DE727BCEFE195902E7B /* libPods-livre_mercado-tvOSTests.a */,
+				43107B0DEDE0FD197ED04D7A /* libPods-livre_mercado.a */,
+				25FE8D08EC1FDF7638DE0F7F /* libPods-livre_mercado-livre_mercadoTests.a */,
+				38AD072AF5BCAF8D05D286A5 /* libPods-livre_mercado-tvOS.a */,
+				5CAFF00223A9297B1F794DAF /* libPods-livre_mercado-tvOSTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		498488CA329D033E76C87E45 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2FBED28A6B9A9AC9AA4EF971 /* Pods-livre_mercado.debug.xcconfig */,
-				63197F4F74CBBACE536F2B42 /* Pods-livre_mercado.release.xcconfig */,
-				99FFCDA60CABFFE9FB2BA9CF /* Pods-livre_mercado-livre_mercadoTests.debug.xcconfig */,
-				E5EADB5B8684683351B8FDB9 /* Pods-livre_mercado-livre_mercadoTests.release.xcconfig */,
-				76CDA45CBA2E29D2CA53DA37 /* Pods-livre_mercado-tvOS.debug.xcconfig */,
-				06FD24A5166AEE406B1E9ECF /* Pods-livre_mercado-tvOS.release.xcconfig */,
-				5F52C24A4F28EF5E5FB9D220 /* Pods-livre_mercado-tvOSTests.debug.xcconfig */,
-				49EBF06E1BF412866ED2BE31 /* Pods-livre_mercado-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +164,7 @@
 				00E356EF1AD99517003FC87E /* livre_mercadoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				498488CA329D033E76C87E45 /* Pods */,
+				F76F6A21E419746F33141D2B /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -198,6 +182,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F76F6A21E419746F33141D2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A291CFEDB697700505AFCC88 /* Pods-livre_mercado.debug.xcconfig */,
+				CB3BB92BFF4785B56FA17E2D /* Pods-livre_mercado.release.xcconfig */,
+				C66E852432E353F5EEA4AFF0 /* Pods-livre_mercado-livre_mercadoTests.debug.xcconfig */,
+				470210849CE1FCBD70B6BF05 /* Pods-livre_mercado-livre_mercadoTests.release.xcconfig */,
+				16699381999C0420F0E6C96B /* Pods-livre_mercado-tvOS.debug.xcconfig */,
+				553672BD6055FEEB31D4A22A /* Pods-livre_mercado-tvOS.release.xcconfig */,
+				CBB5888C6DF791C4985CB874 /* Pods-livre_mercado-tvOSTests.debug.xcconfig */,
+				B124E5606B0EC0A3379241FC /* Pods-livre_mercado-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "livre_mercadoTests" */;
 			buildPhases = (
-				FD2C3A01B657CCE6E8303B82 /* [CP] Check Pods Manifest.lock */,
+				4CF8B256DCB68B138FD39808 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "livre_mercado" */;
 			buildPhases = (
-				73B1CEAD9DBB6423F2BF769E /* [CP] Check Pods Manifest.lock */,
+				B313C533E846E49F08185B3D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "livre_mercado-tvOS" */;
 			buildPhases = (
-				0FFD3F621BE93BBB5675F3CF /* [CP] Check Pods Manifest.lock */,
+				5193D1B65E42C4B4ADF140F9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "livre_mercado-tvOSTests" */;
 			buildPhases = (
-				856D5A782372D9A348C2E248 /* [CP] Check Pods Manifest.lock */,
+				D6F8A720A9C9DC207C1FAE7E /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -375,7 +375,43 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0FFD3F621BE93BBB5675F3CF /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4CF8B256DCB68B138FD39808 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-livre_mercado-livre_mercadoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5193D1B65E42C4B4ADF140F9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,21 +433,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		73B1CEAD9DBB6423F2BF769E /* [CP] Check Pods Manifest.lock */ = {
+		B313C533E846E49F08185B3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,7 +455,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		856D5A782372D9A348C2E248 /* [CP] Check Pods Manifest.lock */ = {
+		D6F8A720A9C9DC207C1FAE7E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -491,28 +513,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FD2C3A01B657CCE6E8303B82 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-livre_mercado-livre_mercadoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -582,7 +582,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99FFCDA60CABFFE9FB2BA9CF /* Pods-livre_mercado-livre_mercadoTests.debug.xcconfig */;
+			baseConfigurationReference = C66E852432E353F5EEA4AFF0 /* Pods-livre_mercado-livre_mercadoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -605,7 +605,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5EADB5B8684683351B8FDB9 /* Pods-livre_mercado-livre_mercadoTests.release.xcconfig */;
+			baseConfigurationReference = 470210849CE1FCBD70B6BF05 /* Pods-livre_mercado-livre_mercadoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -625,7 +625,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FBED28A6B9A9AC9AA4EF971 /* Pods-livre_mercado.debug.xcconfig */;
+			baseConfigurationReference = A291CFEDB697700505AFCC88 /* Pods-livre_mercado.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -652,7 +652,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63197F4F74CBBACE536F2B42 /* Pods-livre_mercado.release.xcconfig */;
+			baseConfigurationReference = CB3BB92BFF4785B56FA17E2D /* Pods-livre_mercado.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -673,7 +673,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76CDA45CBA2E29D2CA53DA37 /* Pods-livre_mercado-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 16699381999C0420F0E6C96B /* Pods-livre_mercado-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,7 +701,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06FD24A5166AEE406B1E9ECF /* Pods-livre_mercado-tvOS.release.xcconfig */;
+			baseConfigurationReference = 553672BD6055FEEB31D4A22A /* Pods-livre_mercado-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -729,7 +729,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F52C24A4F28EF5E5FB9D220 /* Pods-livre_mercado-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = CBB5888C6DF791C4985CB874 /* Pods-livre_mercado-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -756,7 +756,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49EBF06E1BF412866ED2BE31 /* Pods-livre_mercado-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = B124E5606B0EC0A3379241FC /* Pods-livre_mercado-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
