@@ -58,14 +58,14 @@ export const Label = styled.Text`
 export const TextField = styled.View`
     margin: 3px 0;
     border-width: 2px;
-    border-color: #e6e6e6;
+    border-color: #dbdbdb;
     border-radius: 3px;
     flex-direction: row;
 `;
 
 export const IconField = styled.View`
     border-right-width: 2px;
-    border-right-color: #e6e6e6;
+    border-right-color: #dbdbdb;
     width: 15%;
 `;
 

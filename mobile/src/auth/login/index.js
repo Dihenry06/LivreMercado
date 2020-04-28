@@ -27,7 +27,12 @@ import {
     Buttons
 } from './styles';
 
-export default function Login() {
+export default function Login({ navigation }) {
+
+    function toRegister() {
+        navigation.navigate('Register');
+    };
+
     return (
         <Container>
             <StatusBar backgroundColor="#735CDD" />
@@ -102,7 +107,7 @@ export default function Login() {
                 </TextButtonAuth>
                 </ButtonAuth>
 
-                <Register>
+                <Register onPress={toRegister}>
                     <TextRegister>
                         Não possui conta ?
                 </TextRegister>
