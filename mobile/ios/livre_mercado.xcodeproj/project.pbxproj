@@ -20,6 +20,10 @@
 		92CB52BF9C8A45E1A1D71B8A /* libPods-livre_mercado.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43107B0DEDE0FD197ED04D7A /* libPods-livre_mercado.a */; };
 		E6DA14485832CE3FE286B18E /* libPods-livre_mercado-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAFF00223A9297B1F794DAF /* libPods-livre_mercado-tvOSTests.a */; };
 		FD937538278C27081F1758AE /* libPods-livre_mercado-livre_mercadoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FE8D08EC1FDF7638DE0F7F /* libPods-livre_mercado-livre_mercadoTests.a */; };
+		2757ADA17A194191B7A2C431 /* Moderat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5FAB7A41BB6843B0A9A54B0A /* Moderat-Bold.otf */; };
+		4E90FBFA635540AF9E7816C8 /* Moderat.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCBE4C503D6647CF9C19A059 /* Moderat.otf */; };
+		3E35098D1C6A4B10AF6DE0B8 /* SharpGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B9B95ED77534856947F0BE9 /* SharpGrotesk-Bold.otf */; };
+		538B5DB8041748DCADBFB96B /* SharpGrotesk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 537D47731C654206885E7492 /* SharpGrotesk.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		CBB5888C6DF791C4985CB874 /* Pods-livre_mercado-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOSTests/Pods-livre_mercado-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		5FAB7A41BB6843B0A9A54B0A /* Moderat-Bold.otf */ = {isa = PBXFileReference; name = "Moderat-Bold.otf"; path = "../assets/fonts/Moderat-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCBE4C503D6647CF9C19A059 /* Moderat.otf */ = {isa = PBXFileReference; name = "Moderat.otf"; path = "../assets/fonts/Moderat.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B9B95ED77534856947F0BE9 /* SharpGrotesk-Bold.otf */ = {isa = PBXFileReference; name = "SharpGrotesk-Bold.otf"; path = "../assets/fonts/SharpGrotesk-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		537D47731C654206885E7492 /* SharpGrotesk.otf */ = {isa = PBXFileReference; name = "SharpGrotesk.otf"; path = "../assets/fonts/SharpGrotesk.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +173,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F76F6A21E419746F33141D2B /* Pods */,
+				2C69B9A6BA1F454983BC30F5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +206,18 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		2C69B9A6BA1F454983BC30F5 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5FAB7A41BB6843B0A9A54B0A /* Moderat-Bold.otf */,
+				BCBE4C503D6647CF9C19A059 /* Moderat.otf */,
+				0B9B95ED77534856947F0BE9 /* SharpGrotesk-Bold.otf */,
+				537D47731C654206885E7492 /* SharpGrotesk.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -340,6 +361,10 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				2757ADA17A194191B7A2C431 /* Moderat-Bold.otf in Resources */,
+				4E90FBFA635540AF9E7816C8 /* Moderat.otf in Resources */,
+				3E35098D1C6A4B10AF6DE0B8 /* SharpGrotesk-Bold.otf in Resources */,
+				538B5DB8041748DCADBFB96B /* SharpGrotesk.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

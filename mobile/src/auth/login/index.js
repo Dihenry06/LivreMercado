@@ -34,7 +34,7 @@ export default function Login() {
 
             <PurpleDiv>
                 <TextPurpleDiv>
-                    Livre Mercado
+                    livreMercado
                 </TextPurpleDiv>
             </PurpleDiv>
 

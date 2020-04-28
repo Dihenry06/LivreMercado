@@ -28,19 +28,22 @@ export const Buttons = styled.View`
 
 export const TextPurpleDiv = styled.Text`
     margin: auto;
-    font-size: 34px;
+    font-size: 30px;
     color: #fff;
-    font-weight: bold;
+    font-family: 'SharpGrotesk-SemiBold25';
 `;
 
 export const TitleLogin = styled.Text`
+    flex: 1.5;
+    margin: 10px 0 0;
     font-size: 25px;
     font-weight: 900;
     color: #444;
-    margin: 0px 0px 20px;
+    font-family: 'SharpGrotesk-SemiBold25';
 `;
 
 export const Input = styled.View`
+    flex: 2;
     flex-direction: column;
     margin: 5px 0px;
 `;
@@ -77,6 +80,8 @@ export const TextInput = styled.TextInput`
 `;
 
 export const Button = styled.TouchableOpacity`
+    flex: 0.5;
+    width: 100%;
     padding: 15px 20px;
     background: #735CDD;
     border-radius: 3px;
@@ -90,6 +95,7 @@ export const TextButton = styled.Text`
 `;
 
 export const ForgotPassword = styled.TouchableOpacity`
+    flex: 2;
     width: 100%;
     height: 40px;
     justify-content: center;
