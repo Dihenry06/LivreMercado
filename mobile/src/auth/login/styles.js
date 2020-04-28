@@ -7,10 +7,23 @@ export const Container = styled.View`
 `;
 
 export const PurpleDiv = styled.View`
+    flex: 4;
     background: #735CDD;
-    height: 30%;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+`;
+
+export const DivLogin = styled.View`
+    flex: 6.5;
+    background: #FFFFFF;
+    margin: -10% auto 20px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px 20px;
+`;
+
+export const Buttons = styled.View`
+    flex: 4;
 `;
 
 export const TextPurpleDiv = styled.Text`
@@ -18,15 +31,6 @@ export const TextPurpleDiv = styled.Text`
     font-size: 34px;
     color: #fff;
     font-weight: bold;
-`;
-
-export const DivLogin = styled.View`
-    background: #FFFFFF;
-    margin: -10% auto 20px;
-    height: 45%;
-    width: 90%;
-    border-radius: 10px;
-    padding: 30px 25px 0;
 `;
 
 export const TitleLogin = styled.Text`
@@ -38,7 +42,7 @@ export const TitleLogin = styled.Text`
 
 export const Input = styled.View`
     flex-direction: column;
-    margin: 10px 0px;
+    margin: 5px 0px;
 `;
 
 export const Label = styled.Text`
@@ -49,7 +53,7 @@ export const Label = styled.Text`
 `;
 
 export const TextField = styled.View`
-    margin: 5px 0;
+    margin: 3px 0;
     border-width: 2px;
     border-color: #e6e6e6;
     border-radius: 3px;
@@ -89,7 +93,6 @@ export const ForgotPassword = styled.TouchableOpacity`
     width: 100%;
     height: 40px;
     justify-content: center;
-    margin: 0 0 30px;
 `;
 
 export const TextForgotPassword = styled.Text`

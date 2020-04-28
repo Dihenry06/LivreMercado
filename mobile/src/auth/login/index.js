@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { StatusBar } from 'react-native';
+
 import {
     Container,
     TextPurpleDiv,
@@ -21,12 +23,15 @@ import {
     IconAuth,
     Register,
     TextRegister,
-    TextBoldRegister
+    TextBoldRegister,
+    Buttons
 } from './styles';
 
 export default function Login() {
     return (
         <Container>
+            <StatusBar backgroundColor="#735CDD" />
+
             <PurpleDiv>
                 <TextPurpleDiv>
                     Livre Mercado
@@ -79,31 +84,35 @@ export default function Login() {
                         Entrar
                     </TextButton>
                 </Button>
-
             </DivLogin>
 
-            <ButtonAuth>
-                <IconAuth source={{ uri: 'https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Facebook-512.png' }} />
-                <TextButtonAuth>
-                    Registrar com Facebook
-                </TextButtonAuth>
-            </ButtonAuth>
+            <Buttons>
 
-            <ButtonAuth>
-                <IconAuth source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png' }} />
-                <TextButtonAuth>
-                    Registrar com Google
+                <ButtonAuth>
+                    <IconAuth source={{ uri: 'https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Facebook-512.png' }} />
+                    <TextButtonAuth>
+                        Registrar com Facebook
                 </TextButtonAuth>
-            </ButtonAuth>
+                </ButtonAuth>
 
-            <Register>
-                <TextRegister>
-                    Não possui conta ?
+                <ButtonAuth>
+                    <IconAuth source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png' }} />
+                    <TextButtonAuth>
+                        Registrar com Google
+                </TextButtonAuth>
+                </ButtonAuth>
+
+                <Register>
+                    <TextRegister>
+                        Não possui conta ?
                 </TextRegister>
-                <TextBoldRegister>
-                    Registre-se
+                    <TextBoldRegister>
+                        Registre-se
                 </TextBoldRegister>
-            </Register>
+                </Register>
+
+            </Buttons>
+
 
         </Container>
     );
