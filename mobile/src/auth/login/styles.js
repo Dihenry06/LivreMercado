@@ -123,7 +123,7 @@ export const IconAuth = styled.Image`
 `;
 
 export const Register = styled.TouchableOpacity`
-    margin: 30px auto 0;
+    margin: 20px auto 0;
     flex-direction: row;
 `;
 
