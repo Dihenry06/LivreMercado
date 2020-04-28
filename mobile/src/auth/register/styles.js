@@ -9,14 +9,6 @@ export const Container = styled.View`
     flex: 1;
 `;
 
-export const Logo = styled.Text`
-    flex: 1;
-    margin: 30px 0 0;
-    font-family: 'SharpGrotesk-SemiBold25';
-    color: #735CDD;
-    font-size: 16px;
-`;
-
 export const Texts = styled.View`  
     flex: 2;  
     flex-direction: column;
@@ -44,7 +36,7 @@ export const Input = styled.View`
 `;
 
 export const Label = styled.Text`
-    color: #999;
+    color: #444;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
@@ -52,14 +44,14 @@ export const Label = styled.Text`
 
 export const TextField = styled.View`
     margin: 3px 0;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #dbdbdb;
     border-radius: 3px;
     flex-direction: row;
 `;
 
 export const IconField = styled.View`
-    border-right-width: 2px;
+    border-right-width: 1px;
     border-right-color: #e6e6e6;
     width: 15%;
 `;

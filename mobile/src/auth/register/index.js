@@ -1,8 +1,9 @@
 import React from 'react';
 
+import { Logo } from '~/styled';
+
 import {
     Container,
-    Logo,
     Texts,
     Bold,
     Light,
@@ -19,7 +20,7 @@ import {
 export default function Register() {
     return (
         <Container>
-            <Logo>livreMercado</Logo>
+            <Logo flex="1" margin="30px 0 0">livreMercado</Logo>
 
             <Texts>
                 <Bold>Registre-se</Bold>

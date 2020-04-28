@@ -26,13 +26,6 @@ export const Buttons = styled.View`
     flex: 4;
 `;
 
-export const TextPurpleDiv = styled.Text`
-    margin: auto;
-    font-size: 30px;
-    color: #fff;
-    font-family: 'SharpGrotesk-SemiBold25';
-`;
-
 export const TitleLogin = styled.Text`
     flex: 1.5;
     margin: 10px 0 0;
@@ -49,7 +42,7 @@ export const Input = styled.View`
 `;
 
 export const Label = styled.Text`
-    color: #999;
+    color: #444;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
@@ -57,14 +50,14 @@ export const Label = styled.Text`
 
 export const TextField = styled.View`
     margin: 3px 0;
-    border-width: 2px;
+    border-width: 1px;
     border-color: #dbdbdb;
     border-radius: 3px;
     flex-direction: row;
 `;
 
 export const IconField = styled.View`
-    border-right-width: 2px;
+    border-right-width: 1px;
     border-right-color: #dbdbdb;
     width: 15%;
 `;

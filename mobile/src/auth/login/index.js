@@ -1,10 +1,11 @@
 import React from 'react';
 
+import { Logo } from '~/styled';
+
 import { StatusBar } from 'react-native';
 
 import {
     Container,
-    TextPurpleDiv,
     PurpleDiv,
     DivLogin,
     TitleLogin,
@@ -38,9 +39,9 @@ export default function Login({ navigation }) {
             <StatusBar backgroundColor="#735CDD" />
 
             <PurpleDiv>
-                <TextPurpleDiv>
+                <Logo size="30px" color="#fff">
                     livreMercado
-                </TextPurpleDiv>
+                </Logo>
             </PurpleDiv>
 
             <DivLogin>
