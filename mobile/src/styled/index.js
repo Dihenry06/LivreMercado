@@ -4,7 +4,7 @@ import { Platform } from 'react-native';
 
 const fontLogo = Platform.select({
     ios: 'SharpGrotesk-SemiBold25',
-    android: 'sharpgrotesk_semibold25'
+    android: 'SharpGrotesk-Bold'
 });
 
 export const Logo = styled.Text`

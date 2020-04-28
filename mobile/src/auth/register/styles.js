@@ -72,6 +72,7 @@ export const DivButton = styled.View`
 `;
 
 export const Button = styled.TouchableOpacity`
+    margin: 10px 0;
     background-color: #735CDD;
     border-radius: 3px;
     height: 50px;

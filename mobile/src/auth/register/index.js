@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { StatusBar } from 'react-native';
+
 import { Logo } from '~/styled';
 
 import {
@@ -20,6 +22,8 @@ import {
 export default function Register() {
     return (
         <Container>
+            <StatusBar barStyle="dark-content" backgroundColor="#fff" />
+
             <Logo flex="1" margin="30px 0 0">livreMercado</Logo>
 
             <Texts>
