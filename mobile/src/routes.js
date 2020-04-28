@@ -7,7 +7,7 @@ import RegisterScreen from './auth/register';
 
 const Stack = createStackNavigator();
 
-function Routes() {
+export default function Routes() {
     return (
         <Stack.Navigator screenOptions={{
             headerShown: false
@@ -17,5 +17,3 @@ function Routes() {
         </Stack.Navigator>
     );
 }
-
-export default Routes;

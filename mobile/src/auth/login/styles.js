@@ -1,0 +1,135 @@
+import styled from 'styled-components';
+
+export const Container = styled.View`
+    flex: 1;
+    position: relative;
+    background: #f2f2f2;
+`;
+
+export const PurpleDiv = styled.View`
+    background: #735CDD;
+    height: 30%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+`;
+
+export const TextPurpleDiv = styled.Text`
+    margin: auto;
+    font-size: 34px;
+    color: #fff;
+    font-weight: bold;
+`;
+
+export const DivLogin = styled.View`
+    background: #FFFFFF;
+    margin: -10% auto 20px;
+    height: 45%;
+    width: 90%;
+    border-radius: 10px;
+    padding: 30px 25px 0;
+`;
+
+export const TitleLogin = styled.Text`
+    font-size: 25px;
+    font-weight: 900;
+    color: #444;
+    margin: 0px 0px 20px;
+`;
+
+export const Input = styled.View`
+    flex-direction: column;
+    margin: 10px 0px;
+`;
+
+export const Label = styled.Text`
+    color: #999;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+`;
+
+export const TextField = styled.View`
+    margin: 5px 0;
+    border-width: 2px;
+    border-color: #e6e6e6;
+    border-radius: 3px;
+    flex-direction: row;
+`;
+
+export const IconField = styled.View`
+    border-right-width: 2px;
+    border-right-color: #e6e6e6;
+    width: 15%;
+`;
+
+export const Icon = styled.Image`
+
+`;
+
+export const TextInput = styled.TextInput`
+    width: 85%;
+    height: 40px;
+    padding: 0 10px;
+`;
+
+export const Button = styled.TouchableOpacity`
+    padding: 15px 20px;
+    background: #735CDD;
+    border-radius: 3px;
+`;
+
+export const TextButton = styled.Text`
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+`;
+
+export const ForgotPassword = styled.TouchableOpacity`
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    margin: 0 0 30px;
+`;
+
+export const TextForgotPassword = styled.Text`
+    color: #323232;
+    font-weight: 600;
+`;
+
+export const ButtonAuth = styled.TouchableOpacity`
+    margin: 10px auto;
+    border-width: 2px;
+    border-color: #e6e6e6;
+    width: 80%;
+    background: #fff;
+    padding: 10px 0;
+    flex-direction: row;
+    align-items: center;
+`;
+
+export const TextButtonAuth = styled.Text`
+    color: #777;
+    font-weight: bold;
+`;
+
+export const IconAuth = styled.Image`
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+`;
+
+export const Register = styled.TouchableOpacity`
+    margin: 30px auto 0;
+    flex-direction: row;
+`;
+
+export const TextRegister = styled.Text`
+    color: #444;
+`;
+
+export const TextBoldRegister = styled.Text`
+    margin: 0 0 0 5px;
+    font-weight: bold;
+    color: #735CDD;
+`

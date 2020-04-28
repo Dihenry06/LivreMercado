@@ -9,6 +9,9 @@ import store from './src/store';
 import Routes from './src/routes';
 
 export default function App() {
+
+  console.disableYellowBox = true;
+
   return (
     <Provider store={store}>
       <NavigationContainer>
