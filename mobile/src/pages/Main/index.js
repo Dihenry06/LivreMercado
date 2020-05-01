@@ -9,7 +9,7 @@ export default function Main() {
   return (
     <View>
       <Text>
-        Meu pau
+        Main Route
       </Text>
     </View>
   )
