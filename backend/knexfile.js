@@ -7,7 +7,7 @@ module.exports = {
       port : 3306,
       user: 'root',
       password: '',
-      database: ''
+      database: 'livre_mercado'
     },
     migrations: {
       directory: "./src/database/migrations"
@@ -22,7 +22,7 @@ module.exports = {
       port : 3306,
       user: 'root',
       password: '',
-      database: ''
+      database: 'livre_mercado_test'
     },
     migrations: {
       directory: "./src/database/migrations"
