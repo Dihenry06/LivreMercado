@@ -15,11 +15,11 @@ export default function App() {
   console.disableYellowBox = true;
 
   return (
-    <Provider store={store}>
-      <NavigationContainer>
+    <NavigationContainer>
+      <Provider store={store}>
         <Routes />
-      </NavigationContainer>
-      <GlobalStyles />
-    </Provider>
+        <GlobalStyles />
+      </Provider>
+    </NavigationContainer>
   );
 };

@@ -6,5 +6,7 @@ import AppRoutes from './app.routes.js'
 export default function Routes() {
     const user = true;
 
-    return user ? <AuthRoutes /> : <AppRoutes />
+    // return user ? <AppRoutes /> : <AuthRoutes />
+    return <AppRoutes />
+
 };

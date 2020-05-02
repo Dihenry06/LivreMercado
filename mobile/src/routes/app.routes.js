@@ -1,14 +1,24 @@
 import * as React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
+import { Button, View } from 'react-native';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 
-import MainScreen from '../pages/Main';
-
-const Stack = createStackNavigator();
-
-export default function AppRoutes() {
+function HomeScreen({ navigation }) {
     return (
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="Main" component={MainScreen} />
-        </Stack.Navigator>
+        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+            <Button
+                onPress={() => navigation.navigate('Notifications')}
+                title="Go to notifications"
+            />
+        </View>
+    );
+}
+
+const Drawer = createDrawerNavigator();
+
+export default function App() {
+    return (
+        <Drawer.Navigator initialRouteName="Home">
+            <Drawer.Screen name="Home" component={HomeScreen} />
+        </Drawer.Navigator>
     );
 }
