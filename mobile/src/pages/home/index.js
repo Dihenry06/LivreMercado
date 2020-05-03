@@ -13,11 +13,15 @@ import {
   ButtonBody,
   TextButtonBody,
   ProductList,
+  ActionsHeader,
 } from './styles';
 
 import { Logo } from '~/styled'
 
 import CardShoes from '~/components/card-shoes';
+
+import ButtonAction from '~/components/actions';
+import actions from './actions';
 
 export default function Home() {
   return (
@@ -31,6 +35,13 @@ export default function Home() {
         <ProductsHeader style={ShadowProductHeader}>
 
         </ProductsHeader>
+
+        <ActionsHeader>
+          {
+            actions.map(action => <ButtonAction action={action} />)
+          }
+        </ActionsHeader>
+
       </Header>
 
       <Body>

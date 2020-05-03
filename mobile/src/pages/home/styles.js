@@ -90,3 +90,13 @@ export const ProductList = styled.ScrollView.attrs({
         paddingLeft: 32
     }
 })``
+
+export const ActionsHeader = styled.View`
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 0;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+    height: 100%;
+`;

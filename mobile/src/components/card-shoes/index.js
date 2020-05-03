@@ -8,7 +8,6 @@ import {
   Name,
   Colors,
   TextColors,
-
   BottomProduct,
   Price,
   AddToCard
