@@ -15,23 +15,16 @@ routes.post('/session',celebrate({
 }),SessionController);
 
 /**
- * Routes Users
+ * Route new user
  */
-routes.post('/users', celebrate({
+routes.post('/new/users', celebrate({
     [Segments.BODY]: Joi.object().keys({
+        fullname : Joi.string().required(),
         email: Joi.string().required().email(),
         password: Joi.string().required().min(6),
     })
 }), UserController.create);
 
-routes.put('/edit-user',celebrate({
-    [Segments.HEADERS]:Joi.object({
-        authorization : Joi.number().required()
-    }).unknown(),
-    [Segments.BODY]: Joi.object().keys({
-        email:Joi.string().required().email(),
-        password: Joi.string().required().min(6),
-    })
-}),UserController.update);
+routes.use('/users',require('./routes/usersRouter'));
 
 module.exports = routes;
