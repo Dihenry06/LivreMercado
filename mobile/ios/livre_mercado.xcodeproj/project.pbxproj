@@ -12,18 +12,18 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2757ADA17A194191B7A2C431 /* Moderat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5FAB7A41BB6843B0A9A54B0A /* Moderat-Bold.otf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* livre_mercadoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* livre_mercadoTests.m */; };
+		3E35098D1C6A4B10AF6DE0B8 /* SharpGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B9B95ED77534856947F0BE9 /* SharpGrotesk-Bold.otf */; };
+		4E90FBFA635540AF9E7816C8 /* Moderat.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCBE4C503D6647CF9C19A059 /* Moderat.otf */; };
+		538B5DB8041748DCADBFB96B /* SharpGrotesk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 537D47731C654206885E7492 /* SharpGrotesk.otf */; };
 		59B9903498285BA1D875A8A4 /* libPods-livre_mercado-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AD072AF5BCAF8D05D286A5 /* libPods-livre_mercado-tvOS.a */; };
 		92CB52BF9C8A45E1A1D71B8A /* libPods-livre_mercado.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43107B0DEDE0FD197ED04D7A /* libPods-livre_mercado.a */; };
 		E6DA14485832CE3FE286B18E /* libPods-livre_mercado-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAFF00223A9297B1F794DAF /* libPods-livre_mercado-tvOSTests.a */; };
 		FD937538278C27081F1758AE /* libPods-livre_mercado-livre_mercadoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FE8D08EC1FDF7638DE0F7F /* libPods-livre_mercado-livre_mercadoTests.a */; };
-		2757ADA17A194191B7A2C431 /* Moderat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5FAB7A41BB6843B0A9A54B0A /* Moderat-Bold.otf */; };
-		4E90FBFA635540AF9E7816C8 /* Moderat.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCBE4C503D6647CF9C19A059 /* Moderat.otf */; };
-		3E35098D1C6A4B10AF6DE0B8 /* SharpGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B9B95ED77534856947F0BE9 /* SharpGrotesk-Bold.otf */; };
-		538B5DB8041748DCADBFB96B /* SharpGrotesk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 537D47731C654206885E7492 /* SharpGrotesk.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +48,7 @@
 		00E356EE1AD99517003FC87E /* livre_mercadoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = livre_mercadoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* livre_mercadoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = livre_mercadoTests.m; sourceTree = "<group>"; };
+		0B9B95ED77534856947F0BE9 /* SharpGrotesk-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SharpGrotesk-Bold.otf"; path = "../assets/fonts/SharpGrotesk-Bold.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* livre_mercado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = livre_mercado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = livre_mercado/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = livre_mercado/AppDelegate.m; sourceTree = "<group>"; };
@@ -62,19 +63,18 @@
 		38AD072AF5BCAF8D05D286A5 /* libPods-livre_mercado-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43107B0DEDE0FD197ED04D7A /* libPods-livre_mercado.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		470210849CE1FCBD70B6BF05 /* Pods-livre_mercado-livre_mercadoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-livre_mercadoTests.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado-livre_mercadoTests/Pods-livre_mercado-livre_mercadoTests.release.xcconfig"; sourceTree = "<group>"; };
+		537D47731C654206885E7492 /* SharpGrotesk.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SharpGrotesk.otf; path = ../assets/fonts/SharpGrotesk.otf; sourceTree = "<group>"; };
 		553672BD6055FEEB31D4A22A /* Pods-livre_mercado-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOS.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOS/Pods-livre_mercado-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		5CAFF00223A9297B1F794DAF /* libPods-livre_mercado-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-livre_mercado-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAB7A41BB6843B0A9A54B0A /* Moderat-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Moderat-Bold.otf"; path = "../assets/fonts/Moderat-Bold.otf"; sourceTree = "<group>"; };
 		A291CFEDB697700505AFCC88 /* Pods-livre_mercado.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado/Pods-livre_mercado.debug.xcconfig"; sourceTree = "<group>"; };
 		B124E5606B0EC0A3379241FC /* Pods-livre_mercado-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOSTests/Pods-livre_mercado-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCBE4C503D6647CF9C19A059 /* Moderat.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Moderat.otf; path = ../assets/fonts/Moderat.otf; sourceTree = "<group>"; };
 		C66E852432E353F5EEA4AFF0 /* Pods-livre_mercado-livre_mercadoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-livre_mercadoTests.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado-livre_mercadoTests/Pods-livre_mercado-livre_mercadoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB3BB92BFF4785B56FA17E2D /* Pods-livre_mercado.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado.release.xcconfig"; path = "Target Support Files/Pods-livre_mercado/Pods-livre_mercado.release.xcconfig"; sourceTree = "<group>"; };
 		CBB5888C6DF791C4985CB874 /* Pods-livre_mercado-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livre_mercado-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-livre_mercado-tvOSTests/Pods-livre_mercado-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		5FAB7A41BB6843B0A9A54B0A /* Moderat-Bold.otf */ = {isa = PBXFileReference; name = "Moderat-Bold.otf"; path = "../assets/fonts/Moderat-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BCBE4C503D6647CF9C19A059 /* Moderat.otf */ = {isa = PBXFileReference; name = "Moderat.otf"; path = "../assets/fonts/Moderat.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0B9B95ED77534856947F0BE9 /* SharpGrotesk-Bold.otf */ = {isa = PBXFileReference; name = "SharpGrotesk-Bold.otf"; path = "../assets/fonts/SharpGrotesk-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		537D47731C654206885E7492 /* SharpGrotesk.otf */ = {isa = PBXFileReference; name = "SharpGrotesk.otf"; path = "../assets/fonts/SharpGrotesk.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +144,18 @@
 			name = livre_mercado;
 			sourceTree = "<group>";
 		};
+		2C69B9A6BA1F454983BC30F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FAB7A41BB6843B0A9A54B0A /* Moderat-Bold.otf */,
+				BCBE4C503D6647CF9C19A059 /* Moderat.otf */,
+				0B9B95ED77534856947F0BE9 /* SharpGrotesk-Bold.otf */,
+				537D47731C654206885E7492 /* SharpGrotesk.otf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,18 +219,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		2C69B9A6BA1F454983BC30F5 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				5FAB7A41BB6843B0A9A54B0A /* Moderat-Bold.otf */,
-				BCBE4C503D6647CF9C19A059 /* Moderat.otf */,
-				0B9B95ED77534856947F0BE9 /* SharpGrotesk-Bold.otf */,
-				537D47731C654206885E7492 /* SharpGrotesk.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,6 +230,7 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				8B07D136986C4C7F129B7AE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +252,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				ACCD29B885D15888F5D21B82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -456,6 +458,102 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B07D136986C4C7F129B7AE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-livre_mercado-livre_mercadoTests/Pods-livre_mercado-livre_mercadoTests-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-livre_mercado-livre_mercadoTests/Pods-livre_mercado-livre_mercadoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACCD29B885D15888F5D21B82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-livre_mercado/Pods-livre_mercado-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-livre_mercado/Pods-livre_mercado-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B313C533E846E49F08185B3D /* [CP] Check Pods Manifest.lock */ = {

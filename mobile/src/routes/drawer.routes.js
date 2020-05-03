@@ -11,7 +11,8 @@ export default function App() {
     return (
         <Drawer.Navigator initialRouteName="Home"
             drawerContent={(props) => <CustomDrawer {...props} />}>
-            <Drawer.Screen name="Home" component={HomeScreen} />
+            <Drawer.Screen name="Account" component={HomeScreen} />
+            <Drawer.Screen name="Sales" component={HomeScreen} />
         </Drawer.Navigator>
     );
 }

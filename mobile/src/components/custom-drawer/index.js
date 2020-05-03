@@ -16,6 +16,10 @@ import {
     TextButton
 } from './styles';
 
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+import ItemsMenu from './menu-items';
+
 export default function DrawerCustom(props) {
     const { routes } = props.state;
 
@@ -34,7 +38,7 @@ export default function DrawerCustom(props) {
                 </User>
                 <LogoutButton>
                     <TextButton>
-                        Minha conta
+                        Sair
                     </TextButton>
                 </LogoutButton>
             </Header>
@@ -42,9 +46,11 @@ export default function DrawerCustom(props) {
             <Drawer>
                 {
                     (routes || []).map(route => {
+                        const item = ItemsMenu[route.name];
                         return (
                             <DrawerItem>
-                                <DrawerItemText>{route.name}</DrawerItemText>
+                                <Icon name={item.icon} size={25} color="#323232" />
+                                <DrawerItemText>{item.label}</DrawerItemText>
                             </DrawerItem>
                         )
                     })

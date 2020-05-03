@@ -16,14 +16,22 @@ export const Header = styled.View`
 
 export const Drawer = styled.View`
     flex: 6;
+    align-items: flex-start;
 `;
 
-export const DrawerItem = styled.View`
-
+export const DrawerItem = styled.TouchableOpacity`
+    width: 100%;
+    padding: 20px 15px;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-color: #d1d1d1;
 `;
 
 export const DrawerItemText = styled.Text`
-
+    font-size: 18px;
+    margin-left: 15px;
+    color: #555;
 `;
 
 export const User = styled.View`
