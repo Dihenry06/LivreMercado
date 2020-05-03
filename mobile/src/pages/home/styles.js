@@ -16,7 +16,7 @@ export const Header = styled.View`
 export const PurpleHeader = styled.View`
     padding-top: ${height}px;
     background: #735CDD;
-    height: 50%;
+    height: 55%;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     flex-direction: row;
@@ -53,7 +53,7 @@ export const ShadowProductHeader = {
 };
 
 export const Body = styled.View`
-    flex: 5;
+    flex: 5.5;
     background: #f0f0f0;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -84,17 +84,9 @@ export const TextButtonBody = styled.Text`
     margin: auto;
 `;
 
-export const List = styled.ScrollView.attrs({
+export const ProductList = styled.ScrollView.attrs({
     contentContainerStyle: {
-        paddingTop: 10,
+        paddingTop: 5,
         paddingLeft: 32
     }
 })``
-
-export const ItemList = styled.View`
-    width: 150px;
-    height: 60%;
-    margin: 10px;
-    background: #fff;
-    border-radius: 20px;
-`;

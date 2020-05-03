@@ -12,11 +12,12 @@ import {
   TitleBody,
   ButtonBody,
   TextButtonBody,
-  List,
-  ItemList
+  ProductList,
 } from './styles';
 
 import { Logo } from '~/styled'
+
+import CardShoes from '~/components/card-shoes';
 
 export default function Home() {
   return (
@@ -42,17 +43,11 @@ export default function Home() {
           </ButtonBody>
         </HeaderBody>
 
-        <List horizontal={true}>
+        <ProductList horizontal={true}>
           {
-            [1, 2, 3, 4].map(() => {
-              return (
-                <ItemList>
-
-                </ItemList>
-              )
-            })
+            [1, 2, 3, 4].map(() => <CardShoes />)
           }
-        </List>
+        </ProductList>
 
       </Body>
 
