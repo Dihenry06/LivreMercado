@@ -8,6 +8,12 @@ import {
   ProductsHeader,
   ShadowProductHeader,
   Body,
+  HeaderBody,
+  TitleBody,
+  ButtonBody,
+  TextButtonBody,
+  List,
+  ItemList
 } from './styles';
 
 import { Logo } from '~/styled'
@@ -27,6 +33,26 @@ export default function Home() {
       </Header>
 
       <Body>
+        <HeaderBody>
+          <TitleBody>Novidades</TitleBody>
+          <ButtonBody>
+            <TextButtonBody>
+              Ver todos
+            </TextButtonBody>
+          </ButtonBody>
+        </HeaderBody>
+
+        <List horizontal={true}>
+          {
+            [1, 2, 3, 4].map(() => {
+              return (
+                <ItemList>
+
+                </ItemList>
+              )
+            })
+          }
+        </List>
 
       </Body>
 
