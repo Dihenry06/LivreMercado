@@ -1,16 +1,16 @@
 import React from 'react';
 
 import {
-  View,
+  Container,
   Text
-} from 'react-native';
+} from './styles';
 
 export default function Main() {
   return (
-    <View>
+    <Container>
       <Text>
         Main Route
       </Text>
-    </View>
+    </Container>
   )
 };

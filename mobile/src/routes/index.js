@@ -1,10 +1,11 @@
 import * as React from 'react';
 
 import AuthRoutes from './auth.routes';
-import AppRoutes from './app.routes.js'
+import DrawerRoutes from './drawer.routes.js'
 
 export default function Routes() {
     const user = true;
 
-    return user ? <AuthRoutes /> : <AppRoutes />
+    return user ? <DrawerRoutes /> : <AuthRoutes />
+
 };
