@@ -15,7 +15,7 @@ export const PurpleDiv = styled.View`
 
 export const DivLogin = styled.View`
     flex: 6.5;
-    background: #fcfcfcFFF;
+    background: #fcfcfc;
     margin: -10% auto 20px;
     width: 90%;
     border-radius: 10px;
@@ -104,7 +104,7 @@ export const ButtonAuth = styled.TouchableOpacity`
     border-width: 2px;
     border-color: #e6e6e6;
     width: 80%;
-    background: #f0f0f0;
+    background: #fcfcfc;
     padding: 10px 0;
     flex-direction: row;
     align-items: center;
