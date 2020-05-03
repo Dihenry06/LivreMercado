@@ -4,11 +4,11 @@ const encryptsPassword = require('../utils/encryptsPassword');
 module.exports = {
 
     async create(req, res) {
-        const { email, password } = req.body;
+        const { fullname,email, password } = req.body;
 
         const hash = await encryptsPassword.passwordCript(password);
 
-        const data = { email, hash };
+        const data = { fullname, email, hash };
 
         const response = await UserModel.create(data);
 
