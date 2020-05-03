@@ -26,5 +26,6 @@ routes.post('/new/users', celebrate({
 }), UserController.create);
 
 routes.use('/users',require('./routes/usersRouter'));
+routes.use('/products',require('./routes/productsRouter'));
 
 module.exports = routes;
