@@ -5,11 +5,11 @@ import {
   Text
 } from './styles';
 
-export default function Home() {
+export default function User() {
   return (
     <Container>
       <Text>
-        Home Route
+        User Route
       </Text>
     </Container>
   )

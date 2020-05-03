@@ -5,11 +5,11 @@ import {
   Text
 } from './styles';
 
-export default function Home() {
+export default function Search() {
   return (
     <Container>
       <Text>
-        Home Route
+        Search Route
       </Text>
     </Container>
   )
