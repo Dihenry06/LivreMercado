@@ -4,9 +4,9 @@ module.exports = {
     client: 'mysql',
     connection: {
       host: '127.0.0.1',
-      port : 3306,
+      port : 8889,
       user: 'root',
-      password: '',
+      password: 'root',
       database: 'livre_mercado'
     },
     migrations: {
@@ -19,9 +19,9 @@ module.exports = {
     client: 'mysql',
     connection: {
       host: '127.0.0.1',
-      port : 3306,
+      port : 8889,
       user: 'root',
-      password: '',
+      password: 'root',
       database: 'livre_mercado_test'
     },
     migrations: {
